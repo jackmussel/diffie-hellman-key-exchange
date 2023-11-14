@@ -7,16 +7,16 @@ This Python program implements a key exchange algorithm based on the Diffie-Hell
 
 **Features**
 <br/>
-Fast Modular Exponentiation Algorithm: The program includes a fast modular exponentiation function (fast_mod_exp) to efficiently calculate modular exponentiation.
-Miller-Rabin Primality Test: The Miller-Rabin primality test is employed to generate random prime numbers, ensuring the security of the key exchange.
-Prime Number Generation: The get_prime function generates a random prime number using the Miller-Rabin test.
-Primitive Root Generator: The get_generator function finds a primitive root generator for a given prime number.
-Key Exchange Algorithm: The main function (main) executes the key exchange algorithm, generating public and private keys for both parties and verifying the shared secret key.
+- Fast Modular Exponentiation Algorithm: The program includes a fast modular exponentiation function (fast_mod_exp) to efficiently calculate modular exponentiation.
+- Miller-Rabin Primality Test: The Miller-Rabin primality test is employed to generate random prime numbers, ensuring the security of the key exchange.
+- Prime Number Generation: The get_prime function generates a random prime number using the Miller-Rabin test.
+- Primitive Root Generator: The get_generator function finds a primitive root generator for a given prime number.
+- Key Exchange Algorithm: The main function (main) executes the key exchange algorithm, generating public and private keys for both parties and verifying the shared secret key.
 
 **Usage**
 <br/>
-Run the program to initiate the key exchange.
-The program will output the generated prime number, generator, each party's secret key, public key, and if, whether the shared keys match.
+1. Run the program to initiate the key exchange.
+2. The program will output the generated prime number, generator, each party's secret key, public key, and if, whether the shared keys match.
 
 **Dependencies**
 <br/>
