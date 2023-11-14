@@ -92,22 +92,22 @@ def get_generator(prime: int):
 def main():
 
     P = get_prime(64)
-    print("prime: " + str(P))
+    print("Prime: " + str(P))
 
     G = get_generator(P)
-    print("generator: " + str(G))
+    print("Generator: " + str(G))
 
     X = random.randint(2, P-1)
-    print("Alice Secret: " + str(X))
+    print("Jane Doe's Secret: " + str(X))
 
     Y = random.randint(2, P-1)
-    print("Bob Secret: " + str(Y))
+    print("John Doe's Secret: " + str(Y))
 
     A = fast_mod_exp(G, X, P)
-    print("Alice Public: " + str(P))
+    print("Jane Doe's Public: " + str(P))
 
     B = fast_mod_exp(G, Y, P)
-    print("Bob Public: " + str(P))
+    print("John Doe's Public: " + str(P))
 
     Key1 = fast_mod_exp(A, Y, P)
     print("The key is: " + str(P))
