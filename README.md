@@ -16,7 +16,7 @@ This Python program implements a key exchange algorithm based on the Diffie-Hell
 **Usage**
 <br/>
 1. Run the program to initiate the key exchange.
-2. The program will output the generated prime number, generator, each party's secret key, public key, and if, whether the shared keys match.
+2. The program will output the generated prime number, generator, each party's secret key, public key, and if the shared keys match.
 
 **Dependencies**
 <br/>
